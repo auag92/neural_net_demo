@@ -3,7 +3,8 @@
 ### Once you have a working Python environment and a Conda build environment
 then try installing the following packages,
 
-    $ conda create -n pytorch 
+    $ conda create -n pytorch
+    S conda activate pytorch
     $ conda install -c numpy scikit-learn scipy matplotlib jupyter
     $ conda install pytorch torchvision -c pytorch
 
